@@ -15,7 +15,7 @@
     position: absolute;
     height: 99vh;
     width: 38vh;
-    background-color: rgb(23 23 23 / 80%);
+    background-color: rgb(56 56 56 / 80%);
     right: -25vw;
     border-radius:1.3vh;
 }
@@ -32,18 +32,18 @@
     height: 80%;
     top: 3.5vh;
     float: left;
-    color: #ededed;
+    color: #ffffff;
     text-align: center;
     line-height: 3.5vh;
     transition: all 1s linear;
 }
 
 .clothing-menu-header-btn:hover {
-    color: #444444;
+    color: #ffffff;
 }
 
 .selected {
-    color: #dc143c;
+    color: #ffffff;
 }
 
 .clothing-menu-header-btn > p {
@@ -67,18 +67,18 @@
     top: 3.2vh;
     width: 33.33%;
     float: left;
-    color: #ededed;
+    color: #a400ff;
     text-align: center;
     line-height: 3.7vh;
     transition: all 1s linear;
 }
 
 .selected-cam {
-    color: #dc143c;
+    color: #c700ff;
 }
 
 .clothing-menu-header-camera-btn:hover {
-    color: #444444;
+    color: #b000ff;
 }
 
 .clothing-menu-header-camera-btn > i {
@@ -117,17 +117,17 @@
     height: 40%;
     margin: 0 auto;
     top: 2.3vh;
-    background-color: #dc143c;
+    background-color: #ab00ff;
     border-radius: 0.75vh;
     transition: all 1s linear;
 }
 
 .clothing-menu-outfit-option-button:hover {
-    background-color: #444444;
+    background-color: #ab00ff;
 }
 
 .clothing-menu-outfit-option-button > p {
-    color: #ededed;
+    color: #ff00b5;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.1vh;
@@ -142,13 +142,13 @@
     height: 40%;
     left: 2vh;
     top: 5.1vh;
-    background-color: #dc143c;
+    background-color: #ab00ff;
     border-radius: 0.4vh;
     transition: all 1s linear;
 }
 
 .clothing-menu-myOutfit-option-button:hover {
-    background-color: #444444;
+    background-color: #000000;
 }
 
 .clothing-menu-myOutfit-option-button > p {
@@ -168,13 +168,13 @@
     height: 40%;
     right: 2vh;
     top: 5.1vh;
-    background-color: #dc143c;
+    background-color: #ab00ff;
     border-radius: 0.4vh;
     transition: all 1s linear;
 }
 
 .clothing-menu-myOutfit-option-button-remove:hover {
-    background-color: #444444;
+    background-color: #ab00ff;
 }
 
 .clothing-menu-myOutfit-option-button-remove > p {
@@ -237,7 +237,7 @@
 
 ::-webkit-scrollbar-thumb
 {
-	background-color: #dc143c;
+	background-color: #ab00ff;
 }
 
 .clothing-menu-option {
@@ -247,7 +247,7 @@
 }
 
 .clothing-menu-option-header {
-    color: #ededed;
+    color: #ab00ff;
     padding: 0.8vh;
     width: 100%;
     margin-top: -0.5em;
@@ -277,7 +277,7 @@
     left: 0;
     height: 50%;
     width: 33%;
-    background-color: #dc143c;
+    background-color: #ab00ff;
     color: #e9e9e9;
     text-align: center;
     line-height: 3.6vh;
@@ -286,7 +286,7 @@
 }
 
 .clothing-menu-option-item-left:hover {
-    background-color: #444444;
+    background-color: #000000;
 }
 
 .clothing-menu-option-item-right {
@@ -295,7 +295,7 @@
     right: 0;
     height: 50%;
     width: 33%;
-    background-color: #dc143c;
+    background-color: #ab00ff;
     color: #e9e9e9;
     text-align: center;
     line-height: 3.6vh;
@@ -332,7 +332,7 @@
     font-weight: bold;
     font-size: 1vh;
     letter-spacing: 0.1vh;
-    color: #ededed;
+    color: #ffffff;
 }
 
 .clothing-menu-option-item-header > p {
@@ -352,7 +352,7 @@
     float: right;
     height: 100%;
     width: 33.33%;
-    background-color: #dc143c;
+    background-color: #ab00ff;
     transition: all 1s linear;
 }
 
@@ -394,7 +394,7 @@
 
 .clothing-menu-save-outfit-name-button {
     position: relative;
-    background: #dc143c;
+    background: #ab00ff;
     width: 50%;
     height: 100%;
     float: left;
@@ -429,7 +429,7 @@
     font-size: 1.7vh;
     letter-spacing: 0.1vh;
     text-transform: uppercase;
-    color: #ededed;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -445,13 +445,13 @@
     width: 60%;
     height: 27%;
     text-align: center;
-    background: #444444;
+    background: #525252;
     transition: all 1s linear;
     border-radius: .7vh;
 }
 
 #outfit-name {
-    color: #ededed;
+    color: #ffffff;
     font-family: sans-serif;
     font-size: 1.75vh;
     letter-spacing: 0.1vh;
@@ -483,13 +483,13 @@
     height: 80%;
     width: 50%;
     float: left;
-    background-color: rgb(23 23 23 / 80%);
+    background-color: rgb(163 0 243 / 80%);
     text-align: center;
     transition: 0.08s;
 }
 
 .change-camera-button:hover {
-    background: #dc143c;
+    background: #000000;
 }
 
 .change-camera-button > i {
@@ -504,7 +504,7 @@
     text-align: center;
     width: 100%;
     height: 20%;
-    background: #dc143c;
+    background: #ab00ff;
     line-height: 1.5vh;
     border-bottom-left-radius: .8vh;
     border-bottom-right-radius: .8vh;
@@ -515,6 +515,6 @@
     font-weight: bold;
     font-size: 0.8vh;
     text-transform: uppercase;
-    color: #ededed;
+    color: #000000;
     letter-spacing: 0.1vh;
 }
